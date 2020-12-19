@@ -5,6 +5,8 @@
   justify-content: space-between;
 
 
+
+
   article {
     flex-basis: 24%;
     padding: 20px;
@@ -16,6 +18,79 @@
   }
 
 }
+
+
+article h2 {
+
+
+  text-align: center;
+  height: 40px;
+  font-size: 1.56rem;
+
+
+}
+
+article p{
+
+
+  text-align: center;
+  font-size: 1.1rem;
+
+}
+
+
+
+
+ .liste-films{
+
+
+
+  text-align: center;
+
+
+}
+
+
+.liste-films a{
+
+
+  color: gray;
+  text-decoration: none;
+
+}
+
+a:hover  {
+
+
+  color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@
 document.addEventListener("DOMContentLoaded", function (){
 
 
-    let connexion = new MovieDB();
+    let connexion = new MovieDb();
 
 
 
@@ -16,6 +16,7 @@ if (document.location.pathname.search("fiche-film.html")>0){
 
 
     let params = (new URL(document.location)).searchParams;
+
     connexion.requeteInfoFilm(params.get("id"));
 
 
@@ -24,6 +25,12 @@ if (document.location.pathname.search("fiche-film.html")>0){
 
 
     connexion.requeteDernierFilm();
+
+
+
+
+
+
 
 }
 
@@ -41,7 +48,7 @@ if (document.location.pathname.search("fiche-film.html")>0){
 
 
 
-class MovieDB {
+class MovieDb {
 
     constructor() {
 
@@ -62,6 +69,13 @@ class MovieDB {
 
 
     }
+
+
+
+
+    //-----------------------------------------------------------------------------------------------------------------------------------//
+
+
 
     requeteDernierFilm() {
 
@@ -132,9 +146,23 @@ class MovieDB {
 
             document.querySelector(".liste-films").appendChild(unArticle);
 
+
         }
 
     }
+
+
+
+
+
+
+
+    //-----------------------------------------------------------------------------------------------------------------------------------//
+
+
+
+
+
 
 
     requeteInfoFilm(movieId) {
@@ -160,7 +188,7 @@ class MovieDB {
 
     retourRequeteInfoFilm(e) {
 
-        console.log("Retour dernier Film");
+        console.log();
 
         let target = e.currentTarget;
 
@@ -186,45 +214,27 @@ class MovieDB {
 
 
         document.querySelector("h1").innerHTML = data.title;
-
-
-        this.requeteActeur(data.id);
-
-
-    }
-
-
-requeteActeur(movieId){
-
-//Get Credits
-
-
-}
+        document.querySelector("p.revenu").innerHTML = data.revenue;
 
 
 
 
 
+      let image = this.imgPath + "w342" + data.poster_path;
 
-retourRequeteActeur(e){
-
-
-
-
-
-}
+       // console.log(image);
 
 
 
-
-afficheActeur(data){
+       // document.querySelector("img.affiche").innerHTML = data.image;
 
 
 
 
+        }
 
+//-----------------------------------------------------------------------------------------------------------------------------------//
 
-}
 
 
 
