@@ -12,3 +12,31 @@
 }
 
 
+.swiper-container {
+  width: 500px;
+  border: 3px solid red;
+}
+
+.swiper-slide{
+
+background-color: dimgrey;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.swiper-slide h2{
+height: 60px;
+margin: auto;
+display: flex;
+  align-items: center;
+
+}
+
+.swiper-wrapper{
+
+
+}

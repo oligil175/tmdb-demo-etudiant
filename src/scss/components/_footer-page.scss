@@ -1,0 +1,72 @@
+footer .db{
+
+  height: 100%;
+  width: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  align-items: center;
+  padding-left: 6%;
+
+
+
+
+}
+
+footer .ldb{
+
+  height: 100%;
+  width: auto;
+  margin: auto;
+
+
+}
+
+footer{
+
+
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+  font-size: 2rem;
+  color: black;
+  border-top: 3px solid red;
+  padding-left: 4%;
+  padding-right: 4%;
+
+
+
+}
+
+.media{
+
+
+  display: flex;
+  height: 100px;
+
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+
+
+}
+
+.media li a img{
+
+
+  height: 70px;
+  width: auto;
+
+}
+
+.media li a img:hover{
+
+  height: 80px;
+
+}
+
+
+
+
+

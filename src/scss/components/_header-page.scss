@@ -1,11 +1,69 @@
 //STYLE DE NOTRE HEADER
 
-header{
+header h1{
 
 
   text-align: center;
   font-size: 4rem;
   color: red;
+
+  margin-bottom: 0;
+  align-items: center;
+height: 130px;
+
+
+
+
+}
+
+
+.navigation a{
+
+
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+
+
+
+
+}
+
+.navigation li{
+
+  list-style: none;
+
+
+}
+
+.navigation ul{
+
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  margin-top: 0;
+  text-align: center;
+
+
+  padding-top: 10px;
+  padding-right: 0;
+  padding-left: 0;
+
+
+
+
+}
+
+.navigation{
+
+  background-color: gray;
+  height: 100px;
+  margin-bottom: 20px;
+  border-top: 4px solid red;
   border-bottom: 4px solid red;
-  margin-bottom: 15px;
+
 }
