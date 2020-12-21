@@ -26,7 +26,7 @@ if (document.location.pathname.search("fiche-film.html")>0){
 
     connexion.requeteDernierFilm();
 
-
+    connexion.requeteDernierFilmCarousel();
 
 
 
@@ -128,6 +128,7 @@ class MovieDb {
 
 
             let unArticle = document.querySelector(".template>article.film").cloneNode(true);
+
 
 
             unArticle.querySelector("h2").innerHTML = data[i].title;
@@ -286,3 +287,54 @@ var mySwiper = new Swiper('.swiper-container', {
         el: '.swiper-scrollbar',
     },
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

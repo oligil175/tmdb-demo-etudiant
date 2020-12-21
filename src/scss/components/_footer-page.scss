@@ -28,10 +28,10 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: gray;
+  background-color: var(--color-800);
   font-size: 2rem;
-  color: black;
-  border-top: 3px solid red;
+  color: var(--color-black);
+  border-top: 3px solid var(--color-yelp);
   padding-left: 4%;
   padding-right: 4%;
 

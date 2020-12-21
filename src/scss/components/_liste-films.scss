@@ -54,7 +54,7 @@ article p{
 .liste-films a{
 
 
-  color: gray;
+  color: var(--color-800);
   text-decoration: none;
 
 }
@@ -62,7 +62,7 @@ article p{
 a:hover  {
 
 
-  color: red;
+  color: var(--color-yelp);
 
 }
 

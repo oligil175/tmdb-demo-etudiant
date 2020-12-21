@@ -11,15 +11,15 @@ a{
   }
 
   &:hover{
-    color: var(--color-link-hover);
+    color: var(--color-yelp);
     text-decoration: underline;
   }
 
   &:active{
-    color: var(--color-link-active);
+    color: var(--color-yelp);
   }
 
   &:focus{
-    color: var(--color-link-focus);
+    color: var(--color-yelp);
   }
 }
