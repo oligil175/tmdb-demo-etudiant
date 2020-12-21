@@ -26,7 +26,7 @@ if (document.location.pathname.search("fiche-film.html")>0){
 
     connexion.requeteDernierFilm();
 
-    connexion.requeteDernierFilmCarousel();
+
 
 
 

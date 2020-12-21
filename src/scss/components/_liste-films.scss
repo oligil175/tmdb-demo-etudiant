@@ -1,10 +1,19 @@
-.liste-films{
+
+
+
+
+
+
+
+@media screen and (min-width: 790px) {
+
+.liste-films {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 
-
+}
 
 
   article {

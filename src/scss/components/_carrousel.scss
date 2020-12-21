@@ -11,11 +11,18 @@
 
 }
 
+@media screen and (min-width: 500px) {
 
-.swiper-container {
-  width: 500px;
-  border: 3px solid var(--color-yelp);
+
+  .swiper-container {
+    width: 500px;
+    border: 3px solid var(--color-yelp);
+  }
+
+
+
 }
+
 
 .swiper-slide{
 
@@ -37,6 +44,9 @@ display: flex;
 }
 
 .swiper-wrapper{
+
+
+  width: 100%;
 
 
 }
