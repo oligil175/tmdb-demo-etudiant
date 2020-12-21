@@ -8,10 +8,64 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+    <script>
+        $(function ()
+        {
+            $('#top').click(function ()
+            {
+                $('html, body').animate({
+                        scrollTop: '0px'
+                    },
+                    1500);
+                return false;
+            });
+        });
+    </script>
 
 
 </head>
-<body>
+
+
+<header>
+
+
+
+    <div class="remonte">
+
+
+        <img id="top" src="images/round_arrow_up_icon_132794.png" alt="" class="src">
+
+
+    </div>
+    <nav class="navigation">
+
+        <ul>
+            <li class="film"><a href=""> Film </a></li>
+            <li class="menu"><a href=""> Menu </a></li>
+            <li class="options"><a href=""> Options </a></li>
+
+        </ul>
+
+
+    </nav>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<body class="fiche-contour">
 
 <div class="template">
 
@@ -22,12 +76,20 @@
 
 </div>
 
+<div class="titre-pour-div">
+
+<h1 class="titre">Titre du film (à modifier)</h1>
+
+</div>
+
 <div class="wrapper">
 
     <main class="fiche-film">
-        <h1>Titre du film (à modifier)</h1>
+
 
         <img class="affiche" src="images/image-temp.jpg" alt="Description de l'image (à modifier)">
+
+        <div class="informations">
 
         <p class="description">Une description du film. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illum laborum non.</p>
         <p class="revenu">  revenue  </p>
@@ -36,7 +98,7 @@
         <p class="langue">langue</p>
         <p class="durée">durée</p>
         <p class="budjet">budjet</p>
-
+</div>
         <div class="liste-acteurs">
 
 
