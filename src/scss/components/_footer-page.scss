@@ -99,5 +99,115 @@ footer{
 
 
 
+@media screen and (max-width: 772px) {
+
+
+
+  footer {
+
+    .ldb{
+      display: flex;
+      height: auto;
+      width: auto;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nom{
+
+
+      font-size: 1rem;
+
+
+    }
+
+
+
+
+
+    .db{
+
+
+      width: 50%;
+      height: 50%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    ul li a img{
+
+
+      height: 30px;
+      width: 30px;
+
+    }
+
+
+    .media{
+
+
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      list-style: none;
+      padding-left: 0;
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+
+  .navigation ul li a{
+
+
+
+
+    font-size: 2rem;
+
+  }
+
+
+
+
+
+
+}
+
+
 
 

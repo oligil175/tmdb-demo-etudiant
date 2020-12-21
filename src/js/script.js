@@ -133,7 +133,8 @@ class MovieDb {
 
             unArticle.querySelector("h2").innerHTML = data[i].title;
             unArticle.querySelector("p.description").innerHTML = data[i].overview || "Pas de description";
-
+            unArticle.querySelector("p.cote").innerHTML = data[i].revenue;
+            unArticle.querySelector("p.sortie").innerHTML = data[i].created_at;
 
             let src = this.imgPath + "w185" + data[i].poster_path;
 
@@ -216,6 +217,8 @@ class MovieDb {
 
         document.querySelector("h1").innerHTML = data.title;
         document.querySelector("p.revenu").innerHTML = data.revenue;
+        document.querySelector("p.sortie").innerHTML = data.language;
+
 
 
 
